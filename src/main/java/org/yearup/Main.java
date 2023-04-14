@@ -17,7 +17,7 @@ public class Main {
       Double loanTermInYears = sc.nextDouble();
 
 
-      //Convert interest rate from annual to monthly
+      //Calculations
       Double totalNumberOfPayments = loanTermInYears * 12;
       double monthlyInterestRate = annualInterestRate / 1200;
       double monthlyPayment = (principal* monthlyInterestRate) / (1 - Math.pow(1 + monthlyInterestRate, -totalNumberOfPayments));
