@@ -5,10 +5,13 @@ import java.util.Scanner;
 public class FinancialCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         // Prompt User to choose calculator
         System.out.println("Welcome to Financial Calculator");
-        System.out.printf("\nPlease choose a calculator: ");
-        System.out.printf("\n1. Mortgage Calculator\n2. CD Calculator");
+        System.out.print("Please choose a calculator: ");
+        ChooseCalculator = sc.nextDouble();
+        System.out.print("1. Mortgage Calculator");
+        
 
 
         //Read users choice
