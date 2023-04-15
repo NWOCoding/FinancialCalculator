@@ -7,9 +7,9 @@ public class FinancialCalculator {
         Scanner sc = new Scanner(System.in);
         // Prompt User to choose calculator
         System.out.println("Welcome to Financial Calculator");
-        System.out.println("Please choose a calculator: ");
-        System.out.println("1. Mortgage Calculator");
-        System.out.println("2. CD Calculator");
+        System.out.printf("\nPlease choose a calculator: ");
+        System.out.printf("\n1. Mortgage Calculator\n2. CD Calculator");
+
 
         //Read users choice
         int choice = sc.nextInt();
