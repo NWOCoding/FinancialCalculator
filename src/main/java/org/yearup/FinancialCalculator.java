@@ -20,8 +20,9 @@ public class FinancialCalculator {
         }
     }
 
+    //Mortgage calculator
     public static void MortgageCalculator(Scanner sc) {
-            //Mortgage calculator
+
             // Users Input
             System.out.print("Enter the Loan amount: ");
             double principal = sc.nextDouble();
