@@ -7,25 +7,19 @@ public class FinancialCalculator {
         Scanner sc = new Scanner(System.in);
 
         // Prompt User to choose calculator
-        System.out.println("Welcome to Financial Calculator");
-        System.out.print("Please choose a calculator: ");
-        ChooseCalculator = sc.nextDouble();
-        System.out.print("1. Mortgage Calculator");
-        
-
-
-        //Read users choice
+        System.out.print("Welcome to Financial Calculator\nPlease choose a calculator (1.Mortgage Calculator or 2.for CD Calculator): ");
         int choice = sc.nextInt();
 
-        //choose calculator based on users choice
+        // Choose calculator based on user's choice
         if (choice == 1) {
             MortgageCalculator(sc);
         } else if (choice == 2) {
-               CDCalculator(sc);
-            } else {
-                System.out.print("Invalid choice Please choose 1 or 2");
+            CDCalculator(sc);
+        } else {
+            System.out.print("Invalid choice. Please choose 1 or 2");
         }
     }
+
     public static void MortgageCalculator(Scanner sc) {
             //Mortgage calculator
             // Users Input
